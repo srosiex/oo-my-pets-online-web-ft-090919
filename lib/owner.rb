@@ -68,5 +68,5 @@ class Owner
         #   pet.cats = cat_count
            "I have #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
          end
-
+end
 end
