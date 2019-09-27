@@ -61,12 +61,12 @@ class Owner
       @pets[pet_type] = []
     end
 
-    def list_pets
-      @pets.each do |pet_type, pet_array|
-        pet_array.each do |pet|
-          "I have #{pet[:dogs].count} dog(s), and #{pet[:cats].count} cat(s)."
-        end
-    end
+    # def list_pets
+    #   @pets.each do |pet_type, pet_array|
+    #     pet_array.each do |pet|
+    #       "I have #{pet[:dogs].count} dog(s), and #{pet[:cats].count} cat(s)."
+    #     end
+    # end
 end
   end
 end
