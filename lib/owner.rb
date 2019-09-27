@@ -64,7 +64,7 @@ class Owner
     def list_pets
        @pets.each do |pet_type, pet_array|
         # pet_array.each do |pet|
-           "I have #{pet_type[:dogs].count} dog(s), and #{pet_type[:cats].count} cat(s)."
+           "I have #{pet_type[dogs].count} dog(s), and #{pet_type[cats].count} cat(s)."
          end
      end
 end
