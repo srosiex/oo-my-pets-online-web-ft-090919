@@ -67,5 +67,5 @@ class Owner
            "I have #{pet[:dogs].count} dog(s), and #{pet[:cats].count} cat(s)."
          end
      end
-
+end
 end
